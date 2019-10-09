@@ -16,7 +16,7 @@
 let input;
 const numbers = [];
 let total = 0;
-let isOut = true;
+let quit = true;
 do {
   input = +prompt("Введите число: ");
 
@@ -25,9 +25,9 @@ do {
   } else if (Number.isNaN(input)) {
     alert(`Было введено не число, попробуйте еще раз`);
   } else {
-    isOut = false;
+    quit = false;
   }
-} while (isOut);
+} while (quit);
 
 if (numbers.length > 0) {
   for (let key of numbers) {
