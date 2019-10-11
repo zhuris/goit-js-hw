@@ -14,7 +14,7 @@ let pass = prompt("Введите пароль:");
 if (pass === null) {
   message = "Отменено пользователем!";
 }
-if (pass === ADMIN_PASSWORD) {
+else if (pass === ADMIN_PASSWORD) {
   message = "Добро пожаловать!";
 } else {
   message = "Доступ запрещен, неверный пароль!";
