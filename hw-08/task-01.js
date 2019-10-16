@@ -42,6 +42,8 @@ const openModal = e => {
   };
   const closeModal = e => {
     refs.lightbox.classList.remove("is-open");
+    refs.lightboxImage.src = '';
+    refs.lightboxImage.alt = '';
 
     window.removeEventListener("keydown", closeModalKeypress);
   };
