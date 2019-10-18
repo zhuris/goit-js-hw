@@ -1,0 +1,23 @@
+body {
+  display: flex;
+}
+
+.timer {
+  display: flex;
+  margin: 0 auto;
+}
+
+.value, .label {
+  display: block;
+  text-align: center;
+}
+.value { 
+  font-size: 80px;
+  margin: 0 5px;
+  position: relative;
+  background-color: #212121;
+  color: rgb(255, 255, 255);
+  padding: 10px 15px;
+}
+
+

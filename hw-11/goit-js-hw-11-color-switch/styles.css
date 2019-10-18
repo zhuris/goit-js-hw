@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #fff;
+  color: #212121;
+}
+
+button {
+  font-size: 35px;
+  padding: 30px;
+  border-radius: 50%;
+  margin: 50px;
+  outline: none;
+  border: 3px solid green;
+}
